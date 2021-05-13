@@ -59,11 +59,36 @@
       font-size: 2vw;
     }
 
+    button {
+      display: inline-block;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      background: #ffffd1;
+      color: #black;
+      border-bottom: solid 4px #627295;
+      border-radius: 3px;
+    }
+
+    button:active {
+      -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+    }
+
+    div.button {
+      text-align: right;
+    }
+
+
 
   </style>
   </head>
 
   <body>
+    <div class="button">
+      <button type="button" onclick="window.open('https://jcoa-ms.github.io/3tami-english/','_blank')">English版</button>
+    </div>
+
     <h1><h1>
     <div class="train">
       <h2>地下連絡通路</h2>
